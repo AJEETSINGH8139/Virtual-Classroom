@@ -5,9 +5,98 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-color: darkcyan;
+  color: aliceblue;
 }
 
+.navstyle{
+  background-color: rgb(4, 42, 108);
+}
+
+.nav-link:hover{
+  border-radius: 5px;
+  background-color: rgb(56, 56, 147);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home{
+  display: flex;
+}
+
+.side_menu{
+  height: 92.5dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(5, 65, 117);
+}
+
+.side_menu_btn{
+  height: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+  /* margin-top:1px; */
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.icon{
+  size: 50px;
+}
+.side_menu_btn:hover{
+  background-color: rgb(14, 91, 159);
+}
+.left_home{
+  width: 15%;
+  height: 92dvh;
+  border-right: 0.5px solid gray;
+}
+
+/* #root{
+  background-color: cyan;
+} */
+
+.contact_header{
+  margin: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+  height: 250px;
+  background-color: lightseagreen;
+}
+
+.contact_footer{
+  margin: 30px;
+}
+.contact_footer_bottum{
+  display: flex;
+  
+}
+
+.class_middile{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact_about{
+  border-right: 0.5px solid gray;
+  padding-right: 50px;
+  width: 50%;
+  text-align: justify;
+}
+
+.contact_form{
+  margin-left: 50px;
+  width: 40%;
+  
+}
+
+.btn_form{
+  margin-top: 20px;
 }
